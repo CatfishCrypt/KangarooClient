@@ -1,5 +1,7 @@
 # Pollard's kangaroo for SECPK1
 
+This is in preparation to use for an upcoming pool for the #125 challenge. Do not use yet.
+
 A Pollard's kangaroo interval ECDLP solver for SECP256K1 (based on VanitySearch engine).\
 **This program is limited to a 125bit interval search.**
 
