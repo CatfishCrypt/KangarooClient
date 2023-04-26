@@ -1,0 +1,8 @@
+﻿  Kangaroo.cpp
+     Creating library C:\Users\Windows\source\repos\KangarooPoolWorker\VC_CUDA102\x64\Release\Kangaroo.lib and object C:\Users\Windows\source\repos\KangarooPoolWorker\VC_CUDA102\x64\Release\Kangaroo.exp
+  Generating code
+  4 of 1155 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    11 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Kangaroo.vcxproj -> C:\Users\Windows\source\repos\KangarooPoolWorker\VC_CUDA102\x64\Release\Kangaroo.exe
