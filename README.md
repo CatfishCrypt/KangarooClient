@@ -2,6 +2,30 @@
 
 This is in preparation to use for an upcoming pool for the #125 challenge. Do not use yet.
 
+Example command line to connect to server (not real IP or port, DO NOT USE):
+
+Kangaroo -t 0 -gpu -gpuId 0,1 -g 96,128,96,128 -wname CatCrypt -c 100.77.318.235 -sp 5000
+
+To save your kangaroo locations/path on your drive (in seconds, the below has -wi 600 = save every 10 minutes):
+
+Kangaroo -t 0 -gpu -gpuId 0,1 -g 96,128,96,128 -wname CatCrypt -w save -ws -wi 600 -c 100.77.318.235 -sp 5000
+
+IMPORTANT
+
+After you stop your program connection to the server, when you reconnect to the server, you need to call the file you saved in the previous example. If not, your kangaroos will create and save a new different path, and we do not want that. Example on restart:
+
+Kangaroo -t 0 -gpu -gpuId 0,1 -g 96,128,96,128 -wname CatCrypt -w save -i save -ws -wi 300 -c 100.77.318.235 -sp 5000
+
+OR
+
+Kangaroo -t 0 -gpu -gpuId 0,1 -g 96,128,96,128 -wname CatCrypt -i save -ws -wi 300 -c 100.77.318.235 -sp 5000
+
+More to follow...
+
+
+
+
+
 A Pollard's kangaroo interval ECDLP solver for SECP256K1 (based on VanitySearch engine).\
 **This program is limited to a 125bit interval search.**
 
