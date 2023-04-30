@@ -7,19 +7,19 @@ Example command line to connect to server (not real IP or port, DO NOT USE):
 Kangaroo -t 0 -gpu -gpuId 0,1 -g 96,128,96,128 -wname CatCrypt -c 100.77.318.235 -sp 5000
 
 To save your kangaroo locations/path on your drive (in seconds, the below has -wi 600 = save every 10 minutes):
-
+```
 Kangaroo -t 0 -gpu -gpuId 0,1 -g 96,128,96,128 -wname CatCrypt -w kangaroofile -ws -wi 600 -c 100.77.318.235 -sp 5000
-
+```
 IMPORTANT
 
 After you stop your program connection to the server, when you reconnect to the server, you need to call the file you saved in the previous example. If not, your kangaroos will create and save a new different path, and we do not want that. Example on restart:
-
+```
 Kangaroo -t 0 -gpu -gpuId 0,1 -g 96,128,96,128 -wname CatCrypt -w kangaroofile -i kangaroofile -ws -wi 300 -c 100.77.318.235 -sp 5000
-
+```
 OR
-
+```
 Kangaroo -t 0 -gpu -gpuId 0,1 -g 96,128,96,128 -wname CatCrypt -i kangaroofile -ws -wi 300 -c 100.77.318.235 -sp 5000
-
+```
 More to follow...
 
 
